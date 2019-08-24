@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5188C20E23103EAF0062B1A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188C20D23103EAF0062B1A7 /* AppDelegate.m */; };
+		5188C21423103EAF0062B1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5188C21223103EAF0062B1A7 /* Main.storyboard */; };
+		5188C21623103EB10062B1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5188C21523103EB10062B1A7 /* Assets.xcassets */; };
+		5188C21923103EB10062B1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5188C21723103EB10062B1A7 /* LaunchScreen.storyboard */; };
+		5188C21C23103EB10062B1A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188C21B23103EB10062B1A7 /* main.m */; };
+		5188C22623103EB10062B1A7 /* WCXIBScrollerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188C22523103EB10062B1A7 /* WCXIBScrollerViewTests.m */; };
+		5188C23123103EB20062B1A7 /* WCXIBScrollerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188C23023103EB20062B1A7 /* WCXIBScrollerViewUITests.m */; };
+		5188C24123103F0D0062B1A7 /* WCScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188C23F23103F0D0062B1A7 /* WCScrollerViewController.m */; };
+		5188C24223103F0D0062B1A7 /* WCScrollerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5188C24023103F0D0062B1A7 /* WCScrollerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5188C22223103EB10062B1A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5188C20123103EAF0062B1A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5188C20823103EAF0062B1A7;
+			remoteInfo = WCXIBScrollerView;
+		};
+		5188C22D23103EB20062B1A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5188C20123103EAF0062B1A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5188C20823103EAF0062B1A7;
+			remoteInfo = WCXIBScrollerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5188C20923103EAF0062B1A7 /* WCXIBScrollerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCXIBScrollerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5188C20C23103EAF0062B1A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5188C20D23103EAF0062B1A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5188C21323103EAF0062B1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5188C21523103EB10062B1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5188C21823103EB10062B1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5188C21A23103EB10062B1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5188C21B23103EB10062B1A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5188C22123103EB10062B1A7 /* WCXIBScrollerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCXIBScrollerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5188C22523103EB10062B1A7 /* WCXIBScrollerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCXIBScrollerViewTests.m; sourceTree = "<group>"; };
+		5188C22723103EB10062B1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5188C22C23103EB20062B1A7 /* WCXIBScrollerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCXIBScrollerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5188C23023103EB20062B1A7 /* WCXIBScrollerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCXIBScrollerViewUITests.m; sourceTree = "<group>"; };
+		5188C23223103EB20062B1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5188C23E23103F0D0062B1A7 /* WCScrollerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCScrollerViewController.h; sourceTree = "<group>"; };
+		5188C23F23103F0D0062B1A7 /* WCScrollerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCScrollerViewController.m; sourceTree = "<group>"; };
+		5188C24023103F0D0062B1A7 /* WCScrollerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WCScrollerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5188C20623103EAF0062B1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5188C21E23103EB10062B1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5188C22923103EB20062B1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5188C20023103EAF0062B1A7 = {
+			isa = PBXGroup;
+			children = (
+				5188C20B23103EAF0062B1A7 /* WCXIBScrollerView */,
+				5188C22423103EB10062B1A7 /* WCXIBScrollerViewTests */,
+				5188C22F23103EB20062B1A7 /* WCXIBScrollerViewUITests */,
+				5188C20A23103EAF0062B1A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5188C20A23103EAF0062B1A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5188C20923103EAF0062B1A7 /* WCXIBScrollerView.app */,
+				5188C22123103EB10062B1A7 /* WCXIBScrollerViewTests.xctest */,
+				5188C22C23103EB20062B1A7 /* WCXIBScrollerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5188C20B23103EAF0062B1A7 /* WCXIBScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				5188C20C23103EAF0062B1A7 /* AppDelegate.h */,
+				5188C20D23103EAF0062B1A7 /* AppDelegate.m */,
+				5188C23E23103F0D0062B1A7 /* WCScrollerViewController.h */,
+				5188C23F23103F0D0062B1A7 /* WCScrollerViewController.m */,
+				5188C24023103F0D0062B1A7 /* WCScrollerViewController.xib */,
+				5188C21223103EAF0062B1A7 /* Main.storyboard */,
+				5188C21523103EB10062B1A7 /* Assets.xcassets */,
+				5188C21723103EB10062B1A7 /* LaunchScreen.storyboard */,
+				5188C21A23103EB10062B1A7 /* Info.plist */,
+				5188C21B23103EB10062B1A7 /* main.m */,
+			);
+			path = WCXIBScrollerView;
+			sourceTree = "<group>";
+		};
+		5188C22423103EB10062B1A7 /* WCXIBScrollerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5188C22523103EB10062B1A7 /* WCXIBScrollerViewTests.m */,
+				5188C22723103EB10062B1A7 /* Info.plist */,
+			);
+			path = WCXIBScrollerViewTests;
+			sourceTree = "<group>";
+		};
+		5188C22F23103EB20062B1A7 /* WCXIBScrollerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5188C23023103EB20062B1A7 /* WCXIBScrollerViewUITests.m */,
+				5188C23223103EB20062B1A7 /* Info.plist */,
+			);
+			path = WCXIBScrollerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5188C20823103EAF0062B1A7 /* WCXIBScrollerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5188C23523103EB20062B1A7 /* Build configuration list for PBXNativeTarget "WCXIBScrollerView" */;
+			buildPhases = (
+				5188C20523103EAF0062B1A7 /* Sources */,
+				5188C20623103EAF0062B1A7 /* Frameworks */,
+				5188C20723103EAF0062B1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCXIBScrollerView;
+			productName = WCXIBScrollerView;
+			productReference = 5188C20923103EAF0062B1A7 /* WCXIBScrollerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5188C22023103EB10062B1A7 /* WCXIBScrollerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5188C23823103EB20062B1A7 /* Build configuration list for PBXNativeTarget "WCXIBScrollerViewTests" */;
+			buildPhases = (
+				5188C21D23103EB10062B1A7 /* Sources */,
+				5188C21E23103EB10062B1A7 /* Frameworks */,
+				5188C21F23103EB10062B1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5188C22323103EB10062B1A7 /* PBXTargetDependency */,
+			);
+			name = WCXIBScrollerViewTests;
+			productName = WCXIBScrollerViewTests;
+			productReference = 5188C22123103EB10062B1A7 /* WCXIBScrollerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5188C22B23103EB20062B1A7 /* WCXIBScrollerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5188C23B23103EB20062B1A7 /* Build configuration list for PBXNativeTarget "WCXIBScrollerViewUITests" */;
+			buildPhases = (
+				5188C22823103EB20062B1A7 /* Sources */,
+				5188C22923103EB20062B1A7 /* Frameworks */,
+				5188C22A23103EB20062B1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5188C22E23103EB20062B1A7 /* PBXTargetDependency */,
+			);
+			name = WCXIBScrollerViewUITests;
+			productName = WCXIBScrollerViewUITests;
+			productReference = 5188C22C23103EB20062B1A7 /* WCXIBScrollerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5188C20123103EAF0062B1A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = rby;
+				TargetAttributes = {
+					5188C20823103EAF0062B1A7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					5188C22023103EB10062B1A7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5188C20823103EAF0062B1A7;
+					};
+					5188C22B23103EB20062B1A7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5188C20823103EAF0062B1A7;
+					};
+				};
+			};
+			buildConfigurationList = 5188C20423103EAF0062B1A7 /* Build configuration list for PBXProject "WCXIBScrollerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5188C20023103EAF0062B1A7;
+			productRefGroup = 5188C20A23103EAF0062B1A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5188C20823103EAF0062B1A7 /* WCXIBScrollerView */,
+				5188C22023103EB10062B1A7 /* WCXIBScrollerViewTests */,
+				5188C22B23103EB20062B1A7 /* WCXIBScrollerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5188C20723103EAF0062B1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5188C24223103F0D0062B1A7 /* WCScrollerViewController.xib in Resources */,
+				5188C21923103EB10062B1A7 /* LaunchScreen.storyboard in Resources */,
+				5188C21623103EB10062B1A7 /* Assets.xcassets in Resources */,
+				5188C21423103EAF0062B1A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5188C21F23103EB10062B1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5188C22A23103EB20062B1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5188C20523103EAF0062B1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5188C21C23103EB10062B1A7 /* main.m in Sources */,
+				5188C20E23103EAF0062B1A7 /* AppDelegate.m in Sources */,
+				5188C24123103F0D0062B1A7 /* WCScrollerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5188C21D23103EB10062B1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5188C22623103EB10062B1A7 /* WCXIBScrollerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5188C22823103EB20062B1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5188C23123103EB20062B1A7 /* WCXIBScrollerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5188C22323103EB10062B1A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5188C20823103EAF0062B1A7 /* WCXIBScrollerView */;
+			targetProxy = 5188C22223103EB10062B1A7 /* PBXContainerItemProxy */;
+		};
+		5188C22E23103EB20062B1A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5188C20823103EAF0062B1A7 /* WCXIBScrollerView */;
+			targetProxy = 5188C22D23103EB20062B1A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5188C21223103EAF0062B1A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5188C21323103EAF0062B1A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5188C21723103EB10062B1A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5188C21823103EB10062B1A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5188C23323103EB20062B1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5188C23423103EB20062B1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5188C23623103EB20062B1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q46R3K7S9;
+				INFOPLIST_FILE = WCXIBScrollerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rby.WCXIBScrollerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5188C23723103EB20062B1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q46R3K7S9;
+				INFOPLIST_FILE = WCXIBScrollerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rby.WCXIBScrollerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5188C23923103EB20062B1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCXIBScrollerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rby.WCXIBScrollerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCXIBScrollerView.app/WCXIBScrollerView";
+			};
+			name = Debug;
+		};
+		5188C23A23103EB20062B1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCXIBScrollerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rby.WCXIBScrollerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCXIBScrollerView.app/WCXIBScrollerView";
+			};
+			name = Release;
+		};
+		5188C23C23103EB20062B1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCXIBScrollerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rby.WCXIBScrollerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WCXIBScrollerView;
+			};
+			name = Debug;
+		};
+		5188C23D23103EB20062B1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 296BA8G9JQ;
+				INFOPLIST_FILE = WCXIBScrollerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rby.WCXIBScrollerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WCXIBScrollerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5188C20423103EAF0062B1A7 /* Build configuration list for PBXProject "WCXIBScrollerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5188C23323103EB20062B1A7 /* Debug */,
+				5188C23423103EB20062B1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5188C23523103EB20062B1A7 /* Build configuration list for PBXNativeTarget "WCXIBScrollerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5188C23623103EB20062B1A7 /* Debug */,
+				5188C23723103EB20062B1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5188C23823103EB20062B1A7 /* Build configuration list for PBXNativeTarget "WCXIBScrollerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5188C23923103EB20062B1A7 /* Debug */,
+				5188C23A23103EB20062B1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5188C23B23103EB20062B1A7 /* Build configuration list for PBXNativeTarget "WCXIBScrollerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5188C23C23103EB20062B1A7 /* Debug */,
+				5188C23D23103EB20062B1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5188C20123103EAF0062B1A7 /* Project object */;
+}
